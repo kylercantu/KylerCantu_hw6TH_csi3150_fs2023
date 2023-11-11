@@ -1,0 +1,32 @@
+/* Styling for whole city container that contains:
+the Heading, pictures, and description*/
+.city-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #ff7d4b;
+}
+
+/* Styling for the main header representing the name of the City */
+h1 {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+/* Styling for the container that holds the three images */
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Styling for each individual image */
+.image-container img {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* Styling for the description of the place (city) */
+.place-description {
+  font-size: 1.5rem;
+  padding: 20px;
+}

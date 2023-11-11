@@ -1,0 +1,33 @@
+/* Continer for the whole hero section */
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Styling for the background image */
+.hero-container img {
+  width: 100vw;
+  height: 80vh;
+}
+
+/* Styling for the container that contains the main-header and subheader */
+.heading-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Main header styling */
+.main-header {
+  font-size: 3rem;
+}
+
+/* Subheader styling */
+.subheader {
+  font-size: 1.5rem;
+}
